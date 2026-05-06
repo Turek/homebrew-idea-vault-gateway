@@ -1,10 +1,10 @@
 class IdeaVaultGateway < Formula
   desc "Local MCP gateway to Gemini (grounded search) and Perplexity Sonar"
-  homepage "https://github.com/turek/idea-vault-mcp"
-  url "https://github.com/turek/idea-vault-mcp/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  homepage "https://github.com/turek/idea-vault-gateway"
+  url "https://github.com/turek/idea-vault-gateway/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "9dcdb8ff2dbdbfad7073805e0ce892a5f832cfa193e2c62cf6f732ad739dd61d"
   license "MIT"
-  head "https://github.com/turek/idea-vault-mcp.git", branch: "main"
+  head "https://github.com/turek/idea-vault-gateway.git", branch: "main"
 
   depends_on "uv" => :build
 
