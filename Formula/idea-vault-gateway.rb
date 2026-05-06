@@ -10,6 +10,7 @@ class IdeaVaultGateway < Formula
 
   def install
     ENV["UV_PYTHON_PREFERENCE"] = "only-managed"
+    ENV["UV_PYTHON"] = "3.12"
     ENV["UV_PYTHON_INSTALL_DIR"] = libexec/"python"
     ENV["UV_TOOL_DIR"] = libexec/"tools"
     ENV["UV_TOOL_BIN_DIR"] = libexec/"bin"
